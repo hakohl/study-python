@@ -1,0 +1,9 @@
+type(id('a'))   int   <class 'int'>
+type(3/2)   real   <class 'float'>
+type(2.0/2)   real   <class 'float'>
+min("Abend", "Aal", "Ball")   'Aal'   'Aal'
+-2 ** -3   0.333   -0.125
+not(2.0 > 2)   false   True
+type(len('123'))   int   <class 'int'>
+(1 <2 ) + (1 == 1)   1   2
+type (1+2 < 2)   bool   <class 'bool'>

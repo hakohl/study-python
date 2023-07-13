@@ -1,0 +1,36 @@
+Das Objekt "Elena" erhält den Namen person.
+	
+person = "Elena"
+
+
+
+Der Variablen zahl wird der Wert 10 zugewiesen.
+
+zahl = 10
+
+
+
+Der Inhalt der Variablen zahl wird um 5 erhöht.
+
+zahl += 5
+
+
+
+Der Inhalt der Variablen zahl wird auf dem Bildschirm ausgegeben.
+
+print(zahl)
+
+
+
+Der Inhalt der Variablen x wird mit dem Inhalt der Variablen y multipliziert und das Ergebnis der Variablen mit dem Namen produkt zugewiesen.
+
+produkt = x * y
+
+
+
+Dem Objekt mit dem Wert ['rot', 'gelb', 'grün'] wird der Name s zugeordnet. An das Objekt s wird die Botschaft geschickt, es möge die Reihenfolge seiner Listenelemente umkehren.
+Anschließend soll der geänderte Wert ausgegeben werden.
+
+s = ['rot', 'gelb', 'grün']
+s.reverse()
+print(s)

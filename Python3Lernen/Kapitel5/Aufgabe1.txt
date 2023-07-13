@@ -1,0 +1,11 @@
+"a" == "A"                                          False
+"a " > "a"                                          True
+"Baum" == 1                                         True -> f -> False
+123 > 2                                             True
+"123" > "2"                                         False
+"Sonne" != "Sonne"                                  False
+12.2 > 12                                           -> True
+12 + 3 > 4                                          True
+13 //4  <= 3                                        True
+"Kuh" not in ["Katze", "Hund", "Pferd", "Kuh"]      False
+3 in [2, 3, 5, 7, 11, 13]                           True

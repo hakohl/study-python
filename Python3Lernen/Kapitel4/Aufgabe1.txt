@@ -1,0 +1,12 @@
+Wirklichkeit                            Datentyp                  Beispielliteral
+
+Durchmesser von Atomen                  float                     0.00000000000123
+
+Pflanzenname                            str                       'Rose'
+
+Namen der Teilnehmer eines Wettlaufs    list                      ['Hans', 'Julia', 'Sophie', 'Julia']
+
+Name, Vorname und Alter einer Person    tupel                     ("Schmidt", "Peter", 32)
+
+Spielstand in einem Fußballspiel        string -> tupel           ('1:0') -> (1,0)
+
