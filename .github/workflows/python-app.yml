@@ -38,4 +38,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest $GITHUB_WORKSPACE/PYnativePythonProgramming/python-input-and-output-exercise/Exercise6.py
+        cd $GITHUB_WORKSPACE/PYnativePythonProgramming/python-input-and-output-exercise
+        pytest Exercise6.py
