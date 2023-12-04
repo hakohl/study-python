@@ -40,6 +40,7 @@ jobs:
       run: |
        cd $GITHUB_WORKSPACE/PYnativePythonProgramming/python-input-and-output-exercise
        pytest test_Exercise6.py --junitxml=junit/test-results.xml
+       ls -l $GITHUB_WORKSPACE/PYnativePythonProgramming/python-input-and-output-exercise/junit/test-results.xml
     - name: Upload pytest test results
       uses: actions/upload-artifact@v3
       with:
