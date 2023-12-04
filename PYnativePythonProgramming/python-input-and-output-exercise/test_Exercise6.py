@@ -17,5 +17,5 @@ def test_answer():
 
     with open('new_file.txt') as f:
         lines = f.readlines()
-        assert 'line5' not in lines
+        assert 'line4' not in lines
         
