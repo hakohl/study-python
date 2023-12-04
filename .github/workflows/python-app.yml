@@ -39,7 +39,7 @@ jobs:
     - name: Test with pytest
       run: |
        cd $GITHUB_WORKSPACE/PYnativePythonProgramming/python-input-and-output-exercise
-       pytest
+       pytest --doctest-modules --junitxml=junit/test-results.xml 
     # - name: Install tox and any other packages
     #   run: pip install tox
     # - name: Run tox
