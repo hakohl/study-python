@@ -11,3 +11,11 @@ with open('new_file.txt', 'w') as new_file, open('test.txt', 'r') as base_file:
 
 new_file = open('new_file.txt', 'r')
 print(new_file.read())
+
+def test_answer():
+    lines = []
+
+    with open('new_file.txt') as f:
+        lines = f.readlines()
+        assert 'line5' not in lines
+        
