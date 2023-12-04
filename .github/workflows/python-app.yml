@@ -39,7 +39,14 @@ jobs:
     - name: Test with pytest
       run: |
        cd $GITHUB_WORKSPACE/PYnativePythonProgramming/python-input-and-output-exercise
-       pytest test_Exercise6.py --junitxml=junit/test-results.xml 
+       pytest test_Exercise6.py --junitxml=junit/test-results.xml
+    - name: Upload pytest test results
+      uses: actions/upload-artifact@v3
+      with:
+        name: pytest-results
+        path: junit/test-results.xml
+      # Use always() to always run this step to publish test results when there are test failures
+      if: ${{ always() }}
     # - name: Install tox and any other packages
     #   run: pip install tox
     # - name: Run tox
