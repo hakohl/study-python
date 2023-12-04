@@ -45,7 +45,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: pytest-results
-        path: /home/runner/work/study-python/study-python/PYnativePythonProgramming/python-input-and-output-exercise/junit/test-results.xml
+        path: ${{ github.workspace }}/PYnativePythonProgramming/python-input-and-output-exercise/junit/test-results.xml
       # Use always() to always run this step to publish test results when there are test failures
       if: ${{ always() }}
     # - name: Install tox and any other packages
